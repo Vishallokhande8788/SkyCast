@@ -1,23 +1,21 @@
 /* Import Google font - Open Sans */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
-  
-    background: linear-gradient(135deg, #2E3B55, #1E1E2F);
-  
-  
-  color: #FFFFFF;
+  background: linear-gradient(135deg, #2e3b55, #1e1e2f);
+
+  color: #ffffff;
 }
 
 h1 {
-  background: #2E3B55; /* Professional Blue */
+  background: #2e3b55; /* Professional Blue */
   font-size: 1.75rem;
   text-align: center;
   padding: 18px 0;
@@ -42,29 +40,29 @@ h1 {
   padding: 0 17px;
   margin: 10px 0 20px 0;
   border-radius: 4px;
-  border: 1px solid #4A5670; /* Soft Grayish Blue */
-  background: #2E3B55;
+  border: 1px solid #4a5670; /* Soft Grayish Blue */
+  background: #2e3b55;
   color: white;
 }
 
 .weather-input input:focus {
-  border: 2px solid #5372F0;
+  border: 2px solid #5372f0;
 }
 
 .weather-input .separator {
   height: 1px;
   width: 100%;
   margin: 25px 0;
-  background: #4A5670; /* Soft Grayish Blue */
+  background: #4a5670; /* Soft Grayish Blue */
 }
 
 .weather-input .separator::before {
   content: "or";
-  color: #BBBBBB;
+  color: #bbbbbb;
   font-size: 1.18rem;
   padding: 0 15px;
   margin-top: -4px;
-  background: #1E1E2F;
+  background: #1e1e2f;
 }
 
 .weather-input button {
@@ -76,7 +74,7 @@ h1 {
   border-radius: 4px;
   font-size: 1rem;
   color: #fff;
-  background: #5372F0;
+  background: #5372f0;
   transition: 0.2s ease;
 }
 
@@ -85,7 +83,7 @@ h1 {
 }
 
 .weather-input .location-btn {
-  background: #6C757D;
+  background: #6c757d;
 }
 
 .weather-input .location-btn:hover {
@@ -98,7 +96,7 @@ h1 {
 
 .weather-data .current-weather {
   color: #fff;
-  background: #2E3B55; /* Professional Blue */
+  background: #2e3b55; /* Professional Blue */
   border-radius: 5px;
   padding: 20px 70px 20px 20px;
   display: flex;
@@ -145,7 +143,7 @@ h1 {
   padding: 18px 16px;
   list-style: none;
   width: calc(100% / 5);
-  background: #4A5670; /* Dark Grayish Blue */
+  background: #4a5670; /* Dark Grayish Blue */
   border-radius: 5px;
 }
 
