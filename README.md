@@ -1,5 +1,5 @@
 
-📌 PROJECT: Sky Cast
+📌 PROJECT: Sky-Cast
 
 
 🚀 Features:
